@@ -89,6 +89,7 @@ class AdAccount(
         rf_spec = 'rf_spec'
         salesforce_invoice_group_id = 'salesforce_invoice_group_id'
         show_checkout_experience = 'show_checkout_experience'
+        spend_cap_action: 'spend_cap_action'
         spend_cap = 'spend_cap'
         tax_id = 'tax_id'
         tax_id_status = 'tax_id_status'
@@ -2431,6 +2432,7 @@ class AdAccount(
         'rf_spec': 'ReachFrequencySpec',
         'salesforce_invoice_group_id': 'string',
         'show_checkout_experience': 'bool',
+        'spend_cap_action': 'string',
         'spend_cap': 'string',
         'tax_id': 'string',
         'tax_id_status': 'unsigned int',
