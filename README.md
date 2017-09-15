@@ -59,7 +59,7 @@ easy_install pip
 Now execute when you have pip:
 
 ```
-pip install -e git+git://github.com/albertabello-tw/facebook-python-ads-sdk.git@master#egg=facebook-python-ads-sdk
+pip install git+git://github.com/albertabello-tw/facebook-python-ads-sdk.git --upgrade
 ```
 
 Great, now you are ready to use the SDK!
