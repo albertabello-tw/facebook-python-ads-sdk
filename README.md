@@ -59,17 +59,7 @@ easy_install pip
 Now execute when you have pip:
 
 ```
-pip install facebookads
-```
-
-If you care for the latest version instead of a possibly outdated version in the
-<a href="https://pypi.python.org">pypi.python.org</a> repository,
-<a href="https://github.com/facebook/facebook-python-ads-sdk">check out the
-repository from GitHub or download a release tarball</a>. Once you've got the
-package downloaded and unzipped, install it:
-
-```
-python setup.py install
+pip install -e git+git://github.com/albertabello-tw/facebook-python-ads-sdk.git@master#egg=facebook-python-ads-sdk
 ```
 
 Great, now you are ready to use the SDK!
