@@ -89,7 +89,7 @@ class AdAccount(
         rf_spec = 'rf_spec'
         salesforce_invoice_group_id = 'salesforce_invoice_group_id'
         show_checkout_experience = 'show_checkout_experience'
-        spend_cap_action: 'spend_cap_action'
+        spend_cap_action = 'spend_cap_action'
         spend_cap = 'spend_cap'
         tax_id = 'tax_id'
         tax_id_status = 'tax_id_status'
